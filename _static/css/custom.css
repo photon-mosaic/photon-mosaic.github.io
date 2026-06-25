@@ -1,0 +1,11 @@
+html[data-theme="dark"] img {
+    filter: none;
+}
+
+html[data-theme="dark"] .bd-content img:not(.only-dark) {
+    background: unset;
+}
+
+html[data-theme="dark"] .navbar-brand img {
+    background: transparent !important;
+}
