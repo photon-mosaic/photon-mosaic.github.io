@@ -58,6 +58,9 @@ html_baseurl = "https://photon-mosaic.org/"
 sitemap_url_scheme = "{link}"
 
 html_static_path = ["_static"]
+html_css_files = [
+    "css/custom.css",
+]
 html_logo = "_static/logo.png"
 
 linkcheck_ignore = [
