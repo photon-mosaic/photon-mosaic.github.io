@@ -1,0 +1,5 @@
+myst-parser
+linkify-it-py
+pydata-sphinx-theme
+sphinx
+sphinx-design
