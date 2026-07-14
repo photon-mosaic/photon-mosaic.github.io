@@ -44,7 +44,7 @@ html_theme_options = {
         },
         {
             "name": "Pipeline Website",
-            "url": "https://photon-mosaic.neuroinformatics.dev/",
+            "url": "https://pipeline.photon-mosaic.org",
             "icon": "fa-solid fa-diagram-project",
             "type": "fontawesome",
         },
