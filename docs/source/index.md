@@ -9,3 +9,9 @@ We are currently working on two repositories:
 - [`photon-mosaic`](https://github.com/photon-mosaic/photon-mosaic): a modular, extensible Python API package that handles all the steps required for multiphoton imaging, from image processing to signal processing, up to the extraction of DF/F and spikes. We aim to be inclusive of different algorithms at every step of the analysis and to ensure interoperability between tools built by different researchers. We also aim to provide tutorials, documentation, and high test coverage in order to guarantee reproducibility and standardisation, and to keep the analysis optimised from a memory-consumption perspective. Our architectural foundations are inspired by [SpikeInterface](https://spikeinterface.readthedocs.io/).
 
 - [`photon-mosaic-pipeline`](https://pipeline.photon-mosaic.org): a workflow package, based on [Snakemake](https://snakemake.readthedocs.io/), that automates analysis steps on HPC systems, leverages GPUs, and standardises outputs using the [NeuroBlueprint](https://neuroblueprint.neuroinformatics.dev/) format. It currently depends only on external packages, but we plan to integrate it with the `photon-mosaic` library in the future.
+
+We hold an open development meeting every two weeks on **Wednesdays at 4:00 pm (UK time)**, on [Microsoft Teams](https://teams.microsoft.com/meet/394516365050292?p=sf1YrtsPkGHzLUoCXG). Everyone is welcome. Meeting notes are posted in our [Zulip channel](https://neuroinformatics.zulipchat.com/#narrow/channel/500681-photon-mosaic).
+
+```{raw} html
+<p id="meeting-next"></p>
+```
