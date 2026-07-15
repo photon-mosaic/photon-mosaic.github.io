@@ -75,3 +75,8 @@ html_logo = "_static/logo.png"
 linkcheck_ignore = [
     "https://photon-mosaic.org/*",
 ]
+
+# Zulip "#narrow/..." fragments are client-side routes, not HTML anchors.
+linkcheck_anchors_ignore_for_url = [
+    "https://neuroinformatics.zulipchat.com/.*",
+]
