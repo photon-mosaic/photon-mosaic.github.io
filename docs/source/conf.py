@@ -43,6 +43,12 @@ html_theme_options = {
             "type": "fontawesome",
         },
         {
+            "name": "Zulip (chat)",
+            "url": "https://neuroinformatics.zulipchat.com/#narrow/channel/500681-photon-mosaic",
+            "icon": "fa-solid fa-comments",
+            "type": "fontawesome",
+        },
+        {
             "name": "Pipeline Website",
             "url": "https://photon-mosaic.neuroinformatics.dev/",
             "icon": "fa-solid fa-diagram-project",
@@ -60,6 +66,9 @@ sitemap_url_scheme = "{link}"
 html_static_path = ["_static"]
 html_css_files = [
     "css/custom.css",
+]
+html_js_files = [
+    "js/meeting.js",
 ]
 html_logo = "_static/logo.png"
 
