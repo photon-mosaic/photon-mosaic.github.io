@@ -15,3 +15,5 @@ We hold an open development meeting every two weeks on **Wednesdays at 4:00 pm (
 ```{raw} html
 <p id="meeting-next"></p>
 ```
+
+Please check our [Zulip channel](https://neuroinformatics.zulipchat.com/#narrow/channel/500681-photon-mosaic) for possible scheduling changes, for example around holiday periods.
