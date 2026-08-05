@@ -43,6 +43,12 @@ html_theme_options = {
             "type": "fontawesome",
         },
         {
+            "name": "Zulip (chat)",
+            "url": "https://neuroinformatics.zulipchat.com/#narrow/channel/500681-photon-mosaic",
+            "icon": "fa-solid fa-comments",
+            "type": "fontawesome",
+        },
+        {
             "name": "Pipeline Website",
             "url": "https://pipeline.photon-mosaic.org",
             "icon": "fa-solid fa-diagram-project",
@@ -61,8 +67,16 @@ html_static_path = ["_static"]
 html_css_files = [
     "css/custom.css",
 ]
+html_js_files = [
+    "js/meeting.js",
+]
 html_logo = "_static/logo.png"
 
 linkcheck_ignore = [
     "https://photon-mosaic.org/*",
+]
+
+# Zulip "#narrow/..." fragments are client-side routes, not HTML anchors.
+linkcheck_anchors_ignore_for_url = [
+    "https://neuroinformatics.zulipchat.com/.*",
 ]
